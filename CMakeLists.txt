@@ -32,7 +32,8 @@ if (GCC_DEBUG_ENABLE)
 
 endif()
 
-# add_subdirectory(format_test)
+add_subdirectory(format_test)
 add_subdirectory(page_compiler)
+add_subdirectory(simple_http_server)
 
 
