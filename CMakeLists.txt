@@ -37,6 +37,7 @@ add_subdirectory(page_compiler)
 add_subdirectory(simple_http_server)
 add_subdirectory(date_time_test)
 add_subdirectory(intro_threads)
+add_subdirectory(database_intro)
 
 
 
