@@ -52,25 +52,27 @@ Studying possibilities of cross platform desktop applications with POCO.
     -After installation of all Dependencies Packages restart the computer.
 
 ###POCO Library
-```
-  Linux
+
+  Installation
   ```
-    git clone https://github.com/pocoproject/poco.git
-    sudo apt-get install openssl libssl-dev
-    sudo apt-get install libmysqlclient-dev
-    sudo apt-get install libpq-dev
+    Linux
+    ```
+      git clone https://github.com/pocoproject/poco.git
+      sudo apt-get install openssl libssl-dev
+      sudo apt-get install libmysqlclient-dev
+      sudo apt-get install libpq-dev
 
-    # On Windows platforms, ODBC should be readily available if you have the Windows SDK installed.
-    sudo apt-get install libiodbc2 libiodbc2-dev
+      # On Windows platforms, ODBC should be readily available if you have the Windows SDK installed.
+      sudo apt-get install libiodbc2 libiodbc2-dev
 
-    cmake .
-    sudo cmake --build . --target install
-    @TODO install in usr/lib
-    Moved all Poco libraries from /usr/local/lib to /usr/lib/, may also link in the OS.
-  Windows
-  ```  
-    vcpkg.exe install POCO
-  macOS
-  ```      
-    brew install poco
-``` 
+      cmake .
+      sudo cmake --build . --target install
+      @TODO install in usr/lib
+      Moved all Poco libraries from /usr/local/lib to /usr/lib/, may also link in the OS.
+    Windows
+    ```  
+      vcpkg.exe install POCO
+    macOS
+    ```      
+      brew install poco
+  ```
